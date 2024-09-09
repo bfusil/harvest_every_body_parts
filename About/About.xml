@@ -2,51 +2,48 @@
 <ModMetaData>
   <name>Harvest Every Body Parts</name>
   <author>Pikes</author>
+  <url></url>
   <supportedVersions>
-    <li>1.0</li>
-    <li>1.1</li>
-	<li>1.2</li>
-	<li>1.3</li>
+	<li>1.4</li>
+	<li>1.5</li>
   </supportedVersions>
   <packageId>Pikes.HarvestEveryBodyParts</packageId>
-  <description><![CDATA[<b>A simple mod for harvesting almost any human body parts for replacement or trade use.</b>
+  <description>
+<![CDATA[
+<b>A simple mod for harvesting almost any human body parts for replacement or trade use.</b>
 
-Here is a table with some usefull statistics:
-<b>Organs	Origin	Value	Mass	Skill	Death on Fail</b>
-Heart	Vanilla	500	1	8	0.25
-Lung	Vanilla	400	1	0	0
-Kidney	Vanilla	250	1	0	0
-Liver	Vanilla	500	2	0	0
-Eye	Mod	200	0.2	0	0
-Ear	Mod	200	0.2	0	0
-Nose	Mod	100	0.2	0	0
-Jaw	Mod	200	1	0	0
-Spine	Mod	500	2	8	0.25
-Stomach	Mod	400	2	0	0
-Arm	Mod	200	2	0	0
-Hand	Mod	150	1	0	0
-Leg	Mod	200	4	0	0
-Foot	Mod	100	1	0	0
+Here is a table with some useful information:
+<b>Organs	Origin	Value	Mass	Install Skill	Death on Fail</b>
+Heart	Vanilla	1200	1	8	0.25
+Lung	Vanilla	1000	1	5	0
+Kidney	Vanilla	900	1	0	5
+Liver	Vanilla	1200	2	5	0
+Eye	Mod	1200	0.2	5	0
+Ear	Mod	1000	0.2	5	0
+Nose	Mod	700	0.2	5	0
+Jaw	Mod	1000	1	5	0
+Tongue	Mod	700	0.2	5	0
+Spine	Mod	1200	1	8	0.25
+Stomach	Mod	1000	2	5	0
+Arm	Mod	1200	4	5	0
+Hand	Mod	900	1	5	0
+Leg	Mod	1200	7	5	0
+Foot	Mod	900	1	5	0
 
-Bionic Spine is now at 115% efficiency
+<b>How to use this mod?</b>
 
-Remember that harvesting an organ will still be highly disregarded by all non-psychopath, bloodlust or cannibal colonist. Each organ harvested can stack mood penalties up to five times. That is without mention of pawns dying. All of this can and will wreck your colonist's mood if you have a heavy hand!
+The list of new organs and limbs to harvest are listed in the table above. They are marked as "Mod" in the "Origin" column.
+Proceed as usual to harvest or install.
 
-<b>Why this mod?</b>
-Between prosthetics and bionics there is a large gap in research and resources. There is also a gap in limbs replacement efficiency since prosthetics gives you 50% to 85% and bionics 125%.
-But, more important, do you have colonists with something missing or broken and have none of those precious exotic healer items (and if you have, don't want to use it for this) but ache to clear their health tab anyway? Well, I do.
+As in the original game, it's not possible to harvest a sick organ. When the text mention "Amputate", the resulting operation will not grant a new organ but only remove the damaged one.
 
-With this mod, and the one recommended below, you can pretty much heal about everything. You will not be able to cure Alzheimer, Dementia and Frail though: Those ailments have a chance to appear on old age pawns birthdays. Maybe it's time to let go... Or use another mod especially made for this!
-Realistically, replacing a brain would mean new traits and skills with no added value compared to recruiting another colonist. Therefore, it's not included.
-
-<b>Recommended mod</b>
-Scar Removal Drug
-
-Safe to install or remove with ongoing save.
-Should be compatible with everything but may be partially incompatible with mods like EPOE, RBSE or similar.]]>
+Removing any organ or limb from anyone will potentially make the colonists gain tremendous, stackable, mood penalties.
+Pawns with the "Bloodlust", "Cannibal" or "Psychopath" traits are not affected by the organ harvesting of other people. With the Ideology DLC, those with the "Organ Use: Acceptable" Ideoligion are not affected by the harvesting of other people. Other Ideologion precepts may change moodlets for harvest and organ or limb use.
+]]>
   </description>
+  <modIconPath IgnoreIfNoMatchingField="True">ModIcon</modIconPath>
+  <modDependencies></modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>
-    <li>Ludeon.RimWorld.Royalty</li>
   </loadAfter>
 </ModMetaData>

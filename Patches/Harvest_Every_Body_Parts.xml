@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- The file Core\Defs\Bodies\BodyParts_General.xml contains the "BodyPartDef" for Eye, Ear, Nose, Jaw, Spine, Leg, Foot, Tongue -->
+<!-- The file Core\Defs\Bodies\BodyParts_Humanoid.xml contains the "BodyPartDef" for Arm, Hand -->
+<!-- The file Core\Defs\Bodies\BodyParts_Organs.xml contains the "BodyPartDef" for Stomach -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Eye"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Eye</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Ear"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Ear</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Nose"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Nose</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Jaw"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Jaw</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Spine"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Spine</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Leg"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Leg</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Foot"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Foot</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Tongue"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Tongue</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/BodyPartDef[defName="Tongue"]/removeRecipeLabelOverride</xpath>
+	<value>
+	  <removeRecipeLabelOverride>harvest</removeRecipeLabelOverride>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Arm"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Arm</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Hand"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Hand</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+  <!--
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Finger"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Finger</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  -->
+  
+  <!--
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Toe"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Toe</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  -->
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/BodyPartDef[defName="Stomach"]</xpath>
+    <value>
+	  <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+    </value>
+  </Operation>
+  
+<!-- The file Core\Defs\HediffDefs\BodyParts\Hediffs_BodyParts_Bionic.xml contains the "HediffDef" for BionicSpine, BionicTongue -->
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName="BionicSpine"]/addedPartProps</xpath>
+    <value>
+	  <partEfficiency>1.115</partEfficiency>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BionicSpine"]/description</xpath>
+    <value>
+	  <description>An advanced artificial spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It is slightly better than a biological spine in almost every way.</description>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/HediffDef[defName="BionicTongue"]/addedPartProps</xpath>
+    <value>
+	  <betterThanNatural>true</betterThanNatural>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HediffDef[defName="BionicTongue"]/addedPartProps/partEfficiency</xpath>
+    <value>
+	  <partEfficiency>1.115</partEfficiency>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="BionicTongue"]/description</xpath>
+    <value>
+	  <description>An artificial tongue replacement. Made of synthetic smooth-fibers and connected through a neurogel interface, it is slightly better than a natural tongue in speaking, eating, and tasting.</description>
+    </value>
+  </Operation>
+  
+</Patch>

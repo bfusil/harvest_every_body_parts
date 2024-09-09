@@ -1,2 +1,13 @@
+2024/09/09
+Updated for 1.5 version.
+
+Tongue can now be harvested.
+All organ values are much higher. For example, an eye is now at 1200 value (was 200).
+Spine mass in now 1 (was 2).
+Arm mass in now 4 (was 2).
+Leg mass in now 7 (was 4).
+Bionic spine is now at 115% efficiency (was 125%).
+Bionic tongue is now at 115% efficiency.
+
 2021/07/31
 Updated for 1.3 version.

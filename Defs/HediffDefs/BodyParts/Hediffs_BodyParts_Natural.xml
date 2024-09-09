@@ -8,11 +8,11 @@
     <description>A biological human eye. Reacts to light and allows vision.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalEye</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>1200</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalEye</defName>
     <label>install eye</label>
@@ -38,7 +38,7 @@
       <li>Eye</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Ear -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Ear</defName>
@@ -46,11 +46,11 @@
     <description>A biological human ear. The organ of hearing.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalEar</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalEar</defName>
     <label>install ear</label>
@@ -76,7 +76,7 @@
       <li>Ear</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Nose -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Nose</defName>
@@ -84,11 +84,11 @@
     <description>A biological human nose. Protruding part of the face.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalNose</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>100</MarketValue>
+      <MarketValue>700</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalNose</defName>
     <label>install nose</label>
@@ -114,7 +114,7 @@
       <li>Nose</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Jaw -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Jaw</defName>
@@ -122,11 +122,11 @@
     <description>A biological human jaw. Articulated structure at the entrance of the mouth used for eating and talking.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalJaw</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>200</MarketValue>
+      <MarketValue>1000</MarketValue>
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalJaw</defName>
     <label>install jaw</label>
@@ -152,7 +152,7 @@
       <li>Jaw</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Spine -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Spine</defName>
@@ -160,11 +160,11 @@
     <description>A biological human spine. Essential part of the central nervous system for movement and manipulation.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalSpine</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>500</MarketValue>
-      <Mass>2</Mass>
+      <MarketValue>1200</MarketValue>
+      <Mass>1</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalSpine</defName>
     <label>install spine</label>
@@ -194,30 +194,30 @@
       <li>Spine</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
-  <!-- Stomach -->
+  
+  <!-- Leg -->
   <ThingDef ParentName="BodyPartNaturalBase">
-    <defName>Stomach</defName>
-    <label>stomach</label>
-    <description>A biological human stomach. Vital digestive organ.</description>
-    <descriptionHyperlinks><RecipeDef>InstallNaturalStomach</RecipeDef></descriptionHyperlinks>
+    <defName>Leg</defName>
+    <label>leg</label>
+    <description>A biological human leg. Part of the lower limb used for standing, and all forms of locomotion.</description>
+    <descriptionHyperlinks><RecipeDef>InstallNaturalLeg</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>400</MarketValue>
-      <Mass>2</Mass>
+      <MarketValue>1200</MarketValue>
+      <Mass>7</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
-    <defName>InstallNaturalStomach</defName>
-    <label>install stomach</label>
-    <description>Install a biological stomach.</description>
-    <descriptionHyperlinks><ThingDef>Stomach</ThingDef></descriptionHyperlinks>
-    <jobString>Installing stomach.</jobString>
+    <defName>InstallNaturalLeg</defName>
+    <label>install leg</label>
+    <description>Install a biological leg.</description>
+    <descriptionHyperlinks><ThingDef>Leg</ThingDef></descriptionHyperlinks>
+    <jobString>Installing leg.</jobString>
     <ingredients>
       <li>
         <filter>
           <thingDefs>
-            <li>Stomach</li>
+            <li>Leg</li>
           </thingDefs>
         </filter>
         <count>1</count>
@@ -225,14 +225,90 @@
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
-        <li>Stomach</li>
+        <li>Leg</li>
       </thingDefs>
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
-      <li>Stomach</li>
+      <li>Leg</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
+  <!-- Foot -->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>Foot</defName>
+    <label>foot</label>
+    <description>A biological human foot. Terminal portion of the leg which bears weight and allows locomotion.</description>
+    <descriptionHyperlinks><RecipeDef>InstallNaturalFoot</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>900</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>InstallNaturalFoot</defName>
+    <label>install foot</label>
+    <description>Install a biological foot.</description>
+    <descriptionHyperlinks><ThingDef>Foot</ThingDef></descriptionHyperlinks>
+    <jobString>Installing foot.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Foot</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Foot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  
+  <!-- Tongue -->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>Tongue</defName>
+    <label>tongue</label>
+    <description>A biological tongue. Enables the function of speech and manipulates food for eating and tasting as part of the digestive process.</description>
+    <descriptionHyperlinks><RecipeDef>InstallNaturalTongue</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>700</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>InstallNaturalTongue</defName>
+    <label>install tongue</label>
+    <description>Install a biological tongue.</description>
+    <descriptionHyperlinks><ThingDef>Tongue</ThingDef></descriptionHyperlinks>
+    <jobString>Installing tongue.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tongue</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Tongue</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Tongue</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  
   <!-- Arm -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Arm</defName>
@@ -240,11 +316,11 @@
     <description>A biological human arm. Part of the upper limb assisting in the hand's manipulative tasks.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalArm</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>200</MarketValue>
-      <Mass>2</Mass>
+      <MarketValue>1200</MarketValue>
+      <Mass>4</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalArm</defName>
     <label>install arm</label>
@@ -270,7 +346,7 @@
       <li>Arm</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Hand -->
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Hand</defName>
@@ -278,11 +354,11 @@
     <description>A biological human hand. A precise working organ enabling gestures.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalHand</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>150</MarketValue>
+      <MarketValue>900</MarketValue>
       <Mass>1</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalHand</defName>
     <label>install hand</label>
@@ -308,7 +384,7 @@
       <li>Hand</li>
     </appliedOnFixedBodyParts>
   </RecipeDef>
-
+  
   <!-- Finger 
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Finger</defName>
@@ -316,11 +392,11 @@
     <description>A biological human finger. A type of digit and an organ of manipulation found in the hands.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalFinger</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>30</MarketValue>
+      <MarketValue>150</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalFinger</defName>
     <label>install finger</label>
@@ -347,83 +423,7 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
   -->
-
-  <!-- Leg -->
-  <ThingDef ParentName="BodyPartNaturalBase">
-    <defName>Leg</defName>
-    <label>leg</label>
-    <description>A biological human leg. Part of the lower limb used for standing, and all forms of locomotion.</description>
-    <descriptionHyperlinks><RecipeDef>InstallNaturalLeg</RecipeDef></descriptionHyperlinks>
-    <statBases>
-      <MarketValue>200</MarketValue>
-      <Mass>4</Mass>
-    </statBases>
-  </ThingDef>
-
-  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
-    <defName>InstallNaturalLeg</defName>
-    <label>install leg</label>
-    <description>Install a biological leg.</description>
-    <descriptionHyperlinks><ThingDef>Leg</ThingDef></descriptionHyperlinks>
-    <jobString>Installing leg.</jobString>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Leg</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Leg</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Leg</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-
-  <!-- Foot -->
-  <ThingDef ParentName="BodyPartNaturalBase">
-    <defName>Foot</defName>
-    <label>foot</label>
-    <description>A biological human foot. Terminal portion of the leg which bears weight and allows locomotion.</description>
-    <descriptionHyperlinks><RecipeDef>InstallNaturalFoot</RecipeDef></descriptionHyperlinks>
-    <statBases>
-      <MarketValue>100</MarketValue>
-      <Mass>1</Mass>
-    </statBases>
-  </ThingDef>
-
-  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
-    <defName>InstallNaturalFoot</defName>
-    <label>install foot</label>
-    <description>Install a biological foot.</description>
-    <descriptionHyperlinks><ThingDef>Foot</ThingDef></descriptionHyperlinks>
-    <jobString>Installing foot.</jobString>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Foot</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Foot</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <appliedOnFixedBodyParts>
-      <li>Foot</li>
-    </appliedOnFixedBodyParts>
-  </RecipeDef>
-
+  
   <!-- Toe 
   <ThingDef ParentName="BodyPartNaturalBase">
     <defName>Toe</defName>
@@ -431,11 +431,11 @@
     <description>A biological human toe. Digits of the foot which assist while walking, providing balance, weight-bearing, and thrust during gait.</description>
     <descriptionHyperlinks><RecipeDef>InstallNaturalToe</RecipeDef></descriptionHyperlinks>
     <statBases>
-      <MarketValue>20</MarketValue>
+      <MarketValue>100</MarketValue>
       <Mass>0.2</Mass>
     </statBases>
   </ThingDef>
-
+  
   <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
     <defName>InstallNaturalToe</defName>
     <label>install toe</label>
@@ -462,5 +462,43 @@
     </appliedOnFixedBodyParts>
   </RecipeDef>
   -->
-
+  
+  <!-- Stomach -->
+  <ThingDef ParentName="BodyPartNaturalBase">
+    <defName>Stomach</defName>
+    <label>stomach</label>
+    <description>A biological human stomach. Vital digestive organ.</description>
+    <descriptionHyperlinks><RecipeDef>InstallNaturalStomach</RecipeDef></descriptionHyperlinks>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <Mass>1</Mass>
+    </statBases>
+  </ThingDef>
+  
+  <RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase">
+    <defName>InstallNaturalStomach</defName>
+    <label>install stomach</label>
+    <description>Install a biological stomach.</description>
+    <descriptionHyperlinks><ThingDef>Stomach</ThingDef></descriptionHyperlinks>
+    <jobString>Installing stomach.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Stomach</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Stomach</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+  </RecipeDef>
+  
 </Defs>
