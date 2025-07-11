@@ -1,3 +1,6 @@
+2025/07/11
+Updated for 1.6 version.
+
 2024/09/09
 Updated for 1.5 version.
 

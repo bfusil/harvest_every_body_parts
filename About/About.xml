@@ -6,14 +6,13 @@
   <supportedVersions>
 	<li>1.4</li>
 	<li>1.5</li>
+	<li>1.6</li>
   </supportedVersions>
   <packageId>Pikes.HarvestEveryBodyParts</packageId>
-  <description>
-<![CDATA[
-<b>A simple mod for harvesting almost any human body parts for replacement or trade use.</b>
+  <description><![CDATA[<b>A simple mod for harvesting almost any human body parts for replacement or trade use.</b>
 
 Here is a table with some useful information:
-<b>Organs	Origin	Value	Mass	Install Skill	Death on Fail</b>
+<b>Organs	Origin	Value	Mass	Inst. Skill	Death on Fail</b>
 Heart	Vanilla	1200	1	8	0.25
 Lung	Vanilla	1000	1	5	0
 Kidney	Vanilla	900	1	0	5
@@ -41,7 +40,7 @@ Removing any organ or limb from anyone will potentially make the colonists gain 
 Pawns with the "Bloodlust", "Cannibal" or "Psychopath" traits are not affected by the organ harvesting of other people. With the Ideology DLC, those with the "Organ Use: Acceptable" Ideoligion are not affected by the harvesting of other people. Other Ideologion precepts may change moodlets for harvest and organ or limb use.
 ]]>
   </description>
-  <modIconPath IgnoreIfNoMatchingField="True">ModIcon</modIconPath>
+  <modIconPath IgnoreIfNoMatchingField="True"></modIconPath>
   <modDependencies></modDependencies>
   <loadAfter>
     <li>Ludeon.RimWorld</li>

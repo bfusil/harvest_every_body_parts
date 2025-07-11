@@ -180,6 +180,8 @@ Harvesting and installing a brain would mean new backstories, traits and skills 
 Safe to install or remove with ongoing save.
 Should be compatible with most mods but have a great chance to be incompatible with mods like [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1949064302]EPOE-Forked[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=850429707]RBSE[/url] or similar.
 
+I recommend subscribing to the mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2986892226]Organs are labelled[/url] to get a nice texture on your freshly harvested body part.
+
 [url=https://github.com/bfusil/harvest_every_body_parts]Github[/url] for Harvest Every Body Parts.
 
 [h2]My other mods[/h2]
